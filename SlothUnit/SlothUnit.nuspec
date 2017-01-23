@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>SlothUnit</id>
+		<version>0.1.2.8</version>
+		<title>SlothUnit</title>
+		<authors>Suui</authors>
+		<owners>Suui</owners>
+		<licenseUrl>https://github.com/Suui/SlothUnit/blob/master/LICENSE.md</licenseUrl>
+		<projectUrl>https://github.com/Suui/SlothUnit</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>The reflection-based C++ unit testing framework. This NuGet package is still experimental and IS NOT WORKING right now. But soon! :D</description>
+		<releaseNotes>Adding the NuGet package</releaseNotes>
+		<copyright>Copyright (c) 2016-2017 Daniel Ojeda Loisel</copyright>
+		<tags>slothunit native tdd test unit testing framework asert csharp c++ cpp reflection parser compilation code generation  codegeneration</tags>
+		<dependencies>
+			<dependency id="ClangSharp" version="[3.8.0]" />
+		</dependencies>
+	</metadata>
+	
+	<files>
+		<file src="content\**" target="content" />
+		<file src="build\**" target="build" />
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
