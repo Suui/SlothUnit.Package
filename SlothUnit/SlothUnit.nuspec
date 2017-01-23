@@ -13,9 +13,6 @@
 		<releaseNotes>Adding the NuGet package</releaseNotes>
 		<copyright>Copyright (c) 2016-2017 Daniel Ojeda Loisel</copyright>
 		<tags>slothunit native tdd test unit testing framework asert csharp c++ cpp reflection parser compilation code generation  codegeneration</tags>
-		<dependencies>
-			<dependency id="ClangSharp" version="[3.8.0]" />
-		</dependencies>
 	</metadata>
 	
 	<files>
