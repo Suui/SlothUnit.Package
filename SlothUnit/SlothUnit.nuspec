@@ -6,13 +6,13 @@
 		<title>SlothUnit</title>
 		<authors>Suui</authors>
 		<owners>Suui</owners>
-		<licenseUrl>https://github.com/Suui/SlothUnit/blob/master/LICENSE.md</licenseUrl>
+		<copyright>Copyright (c) 2016-2017 Daniel Ojeda Loisel</copyright>
+		<licenseUrl>https://github.com/Suui/SlothUnit.Package/blob/master/LICENSE.md</licenseUrl>
 		<projectUrl>https://github.com/Suui/SlothUnit</projectUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>The reflection-based C++ unit testing framework. This NuGet package is still experimental and IS NOT WORKING right now. But soon! :D</description>
-		<releaseNotes>Adding the NuGet package</releaseNotes>
-		<copyright>Copyright (c) 2016-2017 Daniel Ojeda Loisel</copyright>
 		<tags>slothunit native tdd test unit testing framework asert csharp c++ cpp reflection parser compilation code generation  codegeneration</tags>
+		<description>The reflection-based C++ unit testing framework. This NuGet package is still experimental and althought it may be working already, further testing is needed. Once I'm using this package myself for the development testing I'll be uploading a 0.1.3 release, the "actual" first public release :P</description>
+		<releaseNotes>Testing the NuGet package</releaseNotes>
 	</metadata>
 	
 	<files>
