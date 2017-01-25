@@ -1,6 +1,6 @@
-University of Illinois/NCSA Open Source License\
-Copyright (c) 2017 Daniel Ojeda Loisel.\
-All rights reserved.
+University of Illinois/NCSA Open Source License
+Copyright (c) 2017 Daniel Ojeda Loisel
+All rights reserved
 
 Developed by: Daniel Ojeda Loisel
 
