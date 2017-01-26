@@ -30,7 +30,7 @@
 			- Updated Readmes.
 			
 			NuGet package ;)
-			- No longer dependant on the ClangSharp package, it delivers its assemblies simplicity.
+			- No longer dependant on the ClangSharp package, it delivers its assemblies for simplicity.
 			- Uninstall script that erases the SlothUnit folder when uninstalling.
 		</releaseNotes>
 	</metadata>
