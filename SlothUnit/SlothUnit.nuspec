@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>SlothUnit</id>
-		<version>0.1.2.8</version>
+		<version>0.1.3</version>
 		<title>SlothUnit</title>
 		<authors>Suui</authors>
 		<owners>Suui</owners>
@@ -11,8 +11,28 @@
 		<projectUrl>https://github.com/Suui/SlothUnit</projectUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<tags>slothunit native tdd test unit testing framework asert csharp c++ cpp reflection parser compilation code generation  codegeneration</tags>
-		<description>The reflection-based C++ unit testing framework. This NuGet package is still experimental and althought it may be working already, further testing is needed. Once I'm using this package myself for the development testing I'll be uploading a 0.1.3 release, the "actual" first public release :P</description>
-		<releaseNotes>Testing the NuGet package</releaseNotes>
+		<summary>The reflection-based C++ unit testing framework.</summary>
+		<description>
+			The reflection-based C++ unit testing framework.
+			
+			SlothUnit aims to be really simple to use, expressive and easy to setup. More than anything, trying to be really familiar to your usual C++ code, so you are not required to study it in-depth to be able to start using it fluently (no learning curve whatsoever!).
+			
+			As of today, SlothUnit is still starting out. Only available in Visual Studio, there are just a few simple assertions for bools, strings, integers and floats. But it may be used for fun on some katas or in small projects where you don't need more than that :)
+		</description>
+		<releaseNotes>
+			This is the first public release of SlothUnit!
+
+			- Just a few really simply implemented assertions for bools, strings, integers and floats.
+			- The generated code mirrors the folder structure in the project.
+			- The main file is not being re-generated if it already exists in its corresponding path.
+			- Correction on SlothUnit path references.
+			- Added two little logs in the VS output for user feedback.
+			- Updated Readmes.
+			
+			NuGet package ;)
+			- No longer dependant on the ClangSharp package, it delivers its assemblies simplicity.
+			- Uninstall script that erases the SlothUnit folder when uninstalling.
+		</releaseNotes>
 	</metadata>
 	
 	<files>
